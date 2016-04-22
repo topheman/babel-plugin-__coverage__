@@ -110,7 +110,11 @@ So speaking in terms of maturity, this one is very new.
 
 However, I tried using this in some bigger projects, such as [bemusic/bemuse](https://github.com/bemusic/bemuse) (which contains around 2400 statements). It works, with only few problems (which have now been fixed), and now it works fine.
 
-__Note:__ If you’re using babel-plugin-\_\_coverage\_\_ inside a larger-scale application, feel free to send pull request and update this section kthx!
+They also use babel-plugin-\_\_coverage\_\_:
+
+* [topheman/react-es6-redux](https://github.com/topheman/react-es6-redux) - using the plugin with **webpack/karma** - [checkout the implementation](https://github.com/topheman/react-es6-redux/releases/tag/v3.1.0)
+
+__Note:__ If you’re using babel-plugin-\_\_coverage\_\_ inside a larger-scale application, feel free to send pull request and update the list above!
 
 
 ### Is the resulting coverage differ from Istanbul/Isparta?
